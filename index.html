@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="box">
+        <div id="box_titolo">
+            <h1 id="titolo">Tic Tac Toe</h1>
+        </div>
+        <div id="box_punti">
+            <label id="label_punti_x">Punti X: <p id="punti_x">0</p></label>
+            <label id="label_punti_o">Punti O: <p id="punti_o">0</p></label>
+            <label id="label_punti_par">Parita': <p id="punti_par">0</p></label>
+        </div>
+        <div class="board">
+            <div class="row">
+                <div class="cell" id="1_1"></div>
+                <div class="cell" id="1_2"></div>
+                <div class="cell" id="1_3"></div>
+            </div>
+            <div class="row">
+                <div class="cell" id="2_1"></div>
+                <div class="cell" id="2_2"></div>
+                <div class="cell" id="2_3"></div>
+            </div>
+            <div class="row">
+                <div class="cell" id="3_1"></div>
+                <div class="cell" id="3_2"></div>
+                <div class="cell" id="3_3"></div>
+            </div>
+        </div>
+        <div id="box_button_riavvia">
+            <button id="button_riavvia">Riavvia</button>
+        </div>
+        <div id="box_vittoria">
+            <h1 id="vittoria"></h1>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
